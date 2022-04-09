@@ -5,6 +5,100 @@ git hub remote repo cloned to Documents/javewebdevexercises1
 
 
 
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~
+$ cd Documents
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents (main)
+$ cd javawebdevexercises1
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (main)
+$ ls
+ExtraFILESjavawebdevexercises1/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (main)
+$ git init
+Initialized empty Git repository in C:/Users/h19sl/Documents/javawebdevexercises1/.git/
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ExtraFILESjavawebdevexercises1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (master)
+$ git add .
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (master)
+$ git commit -m"extrafiles"
+[master (root-commit) efafcdc] extrafiles
+ 1 file changed, 345 insertions(+)
+ create mode 100644 ExtraFILESjavawebdevexercises1/javawebdevexercises1aExtraFiles1a.txt
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (master)
+$ git branch
+* master
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (master)
+$ git branch -M main
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (main)
+$ git push origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (main)
+$ git push -u origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (main)
+$ git remote add origin https://github.com/Hannah2020M/javawebdevexercises1.git
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.65 KiB | 2.65 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Hannah2020M/javawebdevexercises1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+h19sl@LAPTOP-CG2SCNUS MINGW64 ~/Documents/javawebdevexercises1 (main)
+$
+
 
 
 ==  5:53 PM 4/9/2022 ++++==============
