@@ -5,6 +5,8 @@ git hub remote repo cloned to Documents/javewebdevexercises1
 
 
 
+
+===   6:00 PM 4/9/2022  ==+++++===============
 h19sl@LAPTOP-CG2SCNUS MINGW64 ~
 $ cd Documents
 
